@@ -3,6 +3,8 @@ buildscript {
         springBootVersion = '2.0.3.RELEASE'
     }
     repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+         maven { url 'http://maven.aliyun.com/nexus/content/repositories/jcenter' }
         mavenCentral()
         maven { url "https://plugins.gradle.org/m2/" }
     }
